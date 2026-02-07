@@ -50,7 +50,6 @@ while i <= 5:
 #-------------------------------------------------------------------
 #8️⃣ Strings
 text = "Python"
-
 print(text.upper())
 print(text.lower())
 print(len(text))
