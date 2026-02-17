@@ -1,8 +1,8 @@
-#1️⃣ Print & Comments
+#1️) Print & Comments
 print("Hello World") 
 #-------------------------------------------------------------------
 
-#2️⃣ Variables & Data Types
+#2️) Variables & Data Types
 name = "Kiruba"      # string
 age = 22             # integer
 waight = 55.5        # float
@@ -11,15 +11,15 @@ skills = ["python","html","css","javascript","sql"]    # list
 projects = ("bike-zone","cakeshop website")            # tuple
 MY_data = {Name:"kiruba",age:20,location="chennai"}    # Dictionary
 #-------------------------------------------------------------------
-#3️⃣ Input from User
+#3️) Input from User
 name = input("Enter your name: ")
 print("Hello", name)
 #-------------------------------------------------------------------
-#4️⃣ Type Casting
+#4️) Type Casting
 age = int(input("Enter age: "))
 price = float("10.5")
 #-------------------------------------------------------------------
-#5️⃣ Operators
+#5️) Operators
 a = 10
 b = 3
 
@@ -29,7 +29,7 @@ print(a * b)   # multiplication
 print(a / b)   # division
 print(a % b)   # modulus
 #-------------------------------------------------------------------
-#6️⃣ Conditions (if / else)
+#6️) Conditions (if / else)
 age = 18
 
 if age >= 18:
@@ -37,7 +37,7 @@ if age >= 18:
 else:
     print("Not eligible")
 #-------------------------------------------------------------------
-#7️⃣ Loops
+#7️) Loops
 for loop
 for i in range(5):
     print(i)
@@ -48,28 +48,29 @@ while i <= 5:
     print(i)
     i += 1
 #-------------------------------------------------------------------
-#8️⃣ Strings
+#8️) Strings
 text = "Python"
 print(text.upper())
 print(text.lower())
 print(len(text))
 print(text[0])
 #-------------------------------------------------------------------
-#9️⃣ Lists
+#9️) Lists
 nums = [1, 2, 3, 4]
 
 nums.append(5)
 print(nums)
 #-------------------------------------------------------------------
-#🔟 Tuples
+#10) Tuples
 data = (10, 20, 30)
 print(data[0])
 #-------------------------------------------------------------------
-#1️⃣1️⃣ Sets
+#1️1️)
+Sets
 s = {1, 2, 3, 3}
 print(s)   # duplicates removed
 #-------------------------------------------------------------------
-#1️⃣2️⃣ Dictionary
+#1️2️) Dictionary
 student = {
     "name": "Kiruba",
     "age": 22
@@ -77,13 +78,13 @@ student = {
 
 print(student["name"])
 #-------------------------------------------------------------------
-#1️⃣3️⃣ Functions
+#1️3️) Functions
 def add(a, b):
     return a + b
 
 print(add(2, 3))
 #-------------------------------------------------------------------
-#1️⃣4️⃣ Recursion
+#1️4️) Recursion
 def factorial(n):
     if n == 1:
         return 1
@@ -91,22 +92,22 @@ def factorial(n):
 
 print(factorial(5))
 #-------------------------------------------------------------------
-#1️⃣5️⃣ File Handling
+#1️5️) File Handling
 f = open("data.txt", "w")
 f.write("Hello Python")
 f.close()
 #-------------------------------------------------------------------
-#1️⃣6️⃣ Exception Handling
+#1️6️) Exception Handling
 try:
     x = int("abc")
 except:
     print("Error occurred")
 #-------------------------------------------------------------------
-#1️⃣7️⃣ Modules
+#1️7️) Modules
 import math
 print(math.sqrt(16))
 #-------------------------------------------------------------------
-#1️⃣8️⃣ OOP (Basic)
+#1️8️) OOP (Basic)
 class Student:
     def __init__(self, name):
         self.name = name
